@@ -106,5 +106,5 @@ See [`COMMERCIAL_LICENSE.txt`](./COMMERCIAL_LICENSE.txt) for details.
 **Attribution Example:**
 ```text
 Source: Learn With DevOps Engineer – Docker Home Lab Series
-https://github.com/learnwithdevopsengineer3682/docker-home-lab
+https://github.com/learnwithdevopsengineer3682/docker-home-lab-series.git
 Licensed under CC BY-NC 4.0
