@@ -1,0 +1,25 @@
+# Bloated Dockerfile
+FROM python:3.10
+
+WORKDIR /app
+
+# Copy everything (no .dockerignore!)
+COPY . .
+
+# Install dev + build tools + heavy packages
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    gcc \
+    git \
+    curl \
+    wget \
+    vim \
+    default-jdk \
+    nodejs \
+    npm \
+    && pip install --no-cache-dir flask psycopg2-binary pandas numpy matplotlib \
+    && npm install -g yarn create-react-app
+
+EXPOSE 5000
+
+CMD ["python", "app.py"]
