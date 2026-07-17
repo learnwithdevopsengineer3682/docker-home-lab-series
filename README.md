@@ -42,7 +42,7 @@ Stay in the loop and get new labs + answers and interview content:
 
 4) **Episode 4 — Persistent Volumes**
 - Folder: `EP4-Persistent-Volumes`
-- Video: https://youtu.be/V2HumY93lrM
+- Video: https://youtu.be/-M4Ogf3bOyI?si=tLmdLcTh_T8ij4MG
 - Highlights: Ephemeral container storage vs persistence, named volumes, bind mounts, common pitfalls. See `EP4-Persistent-Volumes/commands.sh` for a walkthrough.
 - Labs & Q&A: `EP4-Persistent-Volumes/LABS.md`, `EP4-Persistent-Volumes/LABS-ANSWERS.md`, `EP4-Persistent-Volumes/INTERVIEW.md`, `EP4-Persistent-Volumes/INTERVIEW-ANSWERS.md`
 
